@@ -1,5 +1,4 @@
 ---
-manifest.yml: 
 regions:
   bird_town:
     main_square.yml: 

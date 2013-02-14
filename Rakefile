@@ -7,7 +7,10 @@ task :manifest do
   
   root = {}
   Dir[root_path + "/**/*.yml"].each do |path|
-    path = path.gsub(/^#{root_path}/, '')
+    path = path.gsub(/^#{root_path}\//, '')
+    
+    next if path == 'manifest.yml'
+    
     segments = path.split(/[\/\\]/).tap { |ary| ary.delete "" }
     
     cll = root
