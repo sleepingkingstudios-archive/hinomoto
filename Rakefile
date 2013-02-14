@@ -1,8 +1,8 @@
 # Rakefile
 
+task :default => :manifest
+
 task :manifest do
-  puts "Greetings, programs!"
-  
   root_path = File.dirname __FILE__
   
   root = {}
