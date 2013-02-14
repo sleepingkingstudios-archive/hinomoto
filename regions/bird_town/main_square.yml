@@ -11,3 +11,5 @@ description: >
   from the village square up to the sacred Bird Shrine near the summit.
   Opposite the trail through a sturdy vermillion gate is Route 1, leading down
   the mountain to Bronze City.
+edges:
+  houses: { to: houses }
