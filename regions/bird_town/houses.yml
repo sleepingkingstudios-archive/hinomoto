@@ -5,3 +5,5 @@ description: >
   houses. Each house is similar in appearance, with traditional wooden walls
   and curved slate roofs, but each has a few personal touches: a carefully
   tended garden, an ornamental pool, an elegant statue, a proud cherry tree.
+edges:
+  houses: { path: main_square, name: the main square }
