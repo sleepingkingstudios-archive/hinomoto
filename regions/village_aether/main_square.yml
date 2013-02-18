@@ -1,0 +1,17 @@
+---
+key: main_square
+name: the main square of the Village of Aether
+description: >
+  You are in the main square of the Village of Aether, the town where you grew
+  up. At the center of the square is a large bronze statue of two great birds
+  in flight. The village inn is nearby, where you can find the shopkeeper and
+  any visitors to the town, as well as the village's famous hot springs.
+  Opposite the inn is a small cluster of houses, built in the traditional
+  style.
+  
+  Up the slopes of Mount Electrum, you can see the winding length of Bird
+  Trail, which runs from the village square up to the sacred Bird Shrine near
+  the summit. Opposite the trail through a sturdy vermillion gate is Route 1,
+  leading down the mountain toward Bronze City.
+edges:
+  houses: { path: houses, name: the houses }

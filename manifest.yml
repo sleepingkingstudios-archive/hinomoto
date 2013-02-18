@@ -1,6 +1,6 @@
 ---
 regions:
-  bird_town:
+  village_aether:
     houses.yml: 
     main_square.yml: 
-  bird_town.yml: 
+  village_aether.yml: 
