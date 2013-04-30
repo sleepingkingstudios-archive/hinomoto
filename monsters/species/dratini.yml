@@ -1,4 +1,4 @@
-# monsters/species/dratini.rb
+# monsters/species/dratini.yml
 ---
 name: Dratini
 types: [ dragon ]

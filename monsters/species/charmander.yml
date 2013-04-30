@@ -1,0 +1,11 @@
+# monster/species/charmander.yml
+---
+name: Charmander
+types: [ fire ]
+
+hit_points:       0.80
+physical_attack:  1.10
+physical_defense: 1.00
+special_attack:   1.10
+special_defense:  0.95
+speed:            1.00

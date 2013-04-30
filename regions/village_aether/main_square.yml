@@ -1,3 +1,4 @@
+# regions/village_aether/main_square.yml
 ---
 key: main_square
 name: the main square of the Village of Aether
@@ -16,6 +17,7 @@ description: >
 edges:
 - { name: "the houses", path: houses }
 - { name: "bird trail", path: "bird_trail:bird_trail_00" }
+- { path: inn_common_room, name: "the inn" }
 objects:
 - key: "houses"
   look: >

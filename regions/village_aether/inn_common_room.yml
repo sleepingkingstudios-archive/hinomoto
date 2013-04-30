@@ -1,0 +1,15 @@
+# regions/village_aether/inn_common_room.yml
+---
+key: inn_common_room
+name: the common room of the inn in the Village of Aether
+description: >
+  You are in the common room of the inn in the Village of Aether. The wooden
+  floor is scattered with dining tables, served from the kitchen in the back
+  and warmed by the rustic fireplace. The innkeep stands behind her counter,
+  between the stairs to the rooms above and the door back to the village
+  square. A young trainer in a red vest and baseball cap sits at one of the
+  tables, drinking milk.
+edges:
+- { path: main_square, direction: out }
+npcs:
+- { key: crimson, name: trainer }

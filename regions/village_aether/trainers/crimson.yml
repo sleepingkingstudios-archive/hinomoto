@@ -1,0 +1,14 @@
+# regions/village_aether/trainers/crimson.yml
+---
+key:  crimson
+name: "Crimson, The Red Comet"
+description: |
+  A young trainer in a red vest and baseball cap, sporting spiky black hair and
+  a determined expression.
+dialogue: |
+  Hey, you're a monster trainer too! Let's have a practice match.
+monsters:
+- { species: charmander,
+    level: 5,
+    techniques: [ scratch ]
+  }

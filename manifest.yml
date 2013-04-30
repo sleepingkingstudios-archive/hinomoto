@@ -1,9 +1,11 @@
 ---
 monsters:
   species:
+    charmander.yml: 
     dratini.yml: 
   techniques:
     extremespeed.yml: 
+    scratch.yml: 
 regions:
   bird_trail:
     bird_trail_00.yml: 
@@ -12,7 +14,10 @@ regions:
   bird_trail.yml: 
   village_aether:
     houses.yml: 
+    inn_common_room.yml: 
     main_square.yml: 
+    trainers:
+      crimson.yml: 
     your_house.yml: 
     your_room.yml: 
   village_aether.yml: 

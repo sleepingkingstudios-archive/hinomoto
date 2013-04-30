@@ -1,0 +1,7 @@
+# monsters/techniques/scratch.yml
+---
+name: Scratch
+types: Physical
+
+damage:   25
+accuracy: 100
