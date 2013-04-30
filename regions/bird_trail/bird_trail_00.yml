@@ -1,0 +1,17 @@
+---
+key: bird_trail_00
+name: the trailhead of Bird Trail
+description: >
+  A windswept, well-worn trail on the slopes of Mount Electrum. You can see the
+  trail wind its way north up the mountain. Directly to the south is the
+  village of Aether, where you grew up. There is a constant breeze, and a trail
+  marker sways gently from side to side.
+edges:
+- { name: "Bird Town", direction: south, path: "village_aether:main_square" }
+- { direction: north, path: "bird_trail_01" }
+objects:
+- key: "marker"
+  aliases: ["trail marker"]
+  look: >
+    A simple trail marker, pointing north and up the mountain. The sign reads
+    "to Bird Shrine".

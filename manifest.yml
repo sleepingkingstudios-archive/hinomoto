@@ -1,6 +1,18 @@
 ---
+monsters:
+  species:
+    dratini.yml: 
+  techniques:
+    extremespeed.yml: 
 regions:
+  bird_trail:
+    bird_trail_00.yml: 
+    bird_trail_01.yml: 
+    bird_trail_02.yml: 
+  bird_trail.yml: 
   village_aether:
     houses.yml: 
     main_square.yml: 
+    your_house.yml: 
+    your_room.yml: 
   village_aether.yml: 

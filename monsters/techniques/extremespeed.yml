@@ -1,0 +1,7 @@
+# monsters/techniques/extremespeed.rb
+---
+name: Extremespeed
+types: [ physical ]
+
+damage:   100
+accuracy: 200

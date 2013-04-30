@@ -1,0 +1,10 @@
+---
+key: your_house
+name: your house
+description: >
+  You are in the living room of your house. You have many happy memories here,
+  but it's time for you to seek your fortunes in the wider world. If you want
+  to take a rest in the mean time, your room is upstairs.
+edges:
+- { path: houses, direction: out }
+- { path: your_room, direction: upstairs, name: "your room" }

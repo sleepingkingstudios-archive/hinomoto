@@ -1,0 +1,7 @@
+---
+key: bird_trail_01
+description: >
+  The trail here is bounded on either side by steep embankments.
+edges:
+- { direction: south, path: "bird_trail_00" }
+- { direction: north, path: "bird_trail_02" }

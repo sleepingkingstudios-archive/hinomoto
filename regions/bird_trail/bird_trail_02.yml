@@ -1,0 +1,11 @@
+---
+key: bird_trail_02
+description: >
+  A passage that widens and narrows between two high walls of natural stone.
+  At the widest point, there is a stand of tall grass.
+edges:
+- { direction: south, path: "bird_trail_01" }
+objects:
+- key: "tall grass"
+  aliases: [grass]
+  look: "The grass waves gently in the breeze."

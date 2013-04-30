@@ -1,9 +1,35 @@
 ---
 key: houses
+name: "the Village of Aether, among the houses"
 description: >
   You are on a short path paved with flat stones, winding between a cluster of
   houses. Each house is similar in appearance, with traditional wooden walls
   and curved slate roofs, but each has a few personal touches: a carefully
   tended garden, an ornamental pool, an elegant statue, a proud cherry tree.
+  
+  Your house is close by, as is the Nome house, the home of priestess Nome and
+  her three daughters.
 edges:
-  houses: { path: main_square, name: the main square }
+- { path: main_square, name: the main square }
+- { path: your_house, name: your house }
+objects:
+- key: "your house"
+  look: "It's the house where you grew up!"
+- key: "nome house"
+  look: >
+    A small house in the traditional style. The door is flanked by a pair of
+    worn stone statues in the shape of leonine monsters. Priestess Nome lives
+    here, as do her three daughters.
+- key: garden
+  look: >
+    A carefully tended garden with blooming azaleas in an array of white, pink,
+    and fuchsia hues.
+- key: pool
+  aliases: ["ornamental pool"]
+  look: >
+    An ornamental pool ringed with smooth stones. There is a cluster of purple
+    irises at the edge of the pool, just starting to bloom.
+- key: statue
+  look: A terracotta statue of one of the village's guardian spirits.
+- key: "cherry tree"
+  look: "A delicate cherry tree. It must be quite beautiful when in bloom."

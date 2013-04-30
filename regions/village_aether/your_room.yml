@@ -1,0 +1,8 @@
+---
+key: your_room
+name: your room
+description: >
+  Your room is just how you left it. Bed carefully made, closet full of your
+  old clothes, posters of your favorite monsters on the walls.
+edges:
+- { path: your_house, direction: downstairs }

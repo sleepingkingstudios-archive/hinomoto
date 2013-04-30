@@ -14,4 +14,20 @@ description: >
   the summit. Opposite the trail through a sturdy vermillion gate is Route 1,
   leading down the mountain toward Bronze City.
 edges:
-  houses: { path: houses, name: the houses }
+- { name: "the houses", path: houses }
+- { name: "bird trail", path: "bird_trail:bird_trail_00" }
+objects:
+- key: "houses"
+  look: >
+    A group of houses scattered along the lower slope of the mountain. There is
+    a path from the main square, paved with flat stones, that winds between the
+    houses.
+- key: "statue"
+  look: >
+    A beautiful statue of two great birds in flight, cast in bronze and
+    perhaps twice your height. You can read the following engraved on the
+    marble plinth: "Dedicated to the guardian spirits of the village."
+- key: "fruit tree"
+  harvest: 5 sky fruits
+  tend:  last week
+  water: yesterday
